@@ -32,6 +32,13 @@ nav .nav-links ul li a {
   color: whitesmoke;
 }
 
+nav .burger .line {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background: whitesmoke;
+}
+
 footer {
   background: #1b1b86;
   display: -webkit-box;
