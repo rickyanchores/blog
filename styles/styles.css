@@ -1,5 +1,5 @@
 nav {
-  background: steelblue;
+  background: #1b1b86;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,6 +8,10 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+nav .logo {
+  color: whitesmoke;
 }
 
 nav .nav-links ul {
@@ -28,6 +32,50 @@ nav .nav-links ul li a {
   color: whitesmoke;
 }
 
+footer {
+  background: #1b1b86;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .logo {
+  color: whitesmoke;
+}
+
+footer .contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer .contact-links li {
+  padding: 1em;
+}
+
+footer .contact-links li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+footer .contact-links li a:hover {
+  color: yellow;
+}
+
+footer .copyrighter {
+  color: whitesmoke;
+}
+
+#blog {
+  height: 100vh;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -40,5 +88,10 @@ body {
   line-height: 1.6;
   background: #fff;
   color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
 }
 /*# sourceMappingURL=styles.css.map */

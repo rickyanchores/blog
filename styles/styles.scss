@@ -1,4 +1,7 @@
 @import './Nav';
+@import './Footer';
+@import './Blog';
+
 
 *{
     padding: 0;
@@ -10,4 +13,9 @@ body{
     line-height: 1.6;
     background: #fff;
     color: #333;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
 }
