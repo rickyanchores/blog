@@ -2,8 +2,10 @@ footer{
     //background: rgb(27, 27, 134);
     background: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 2em;
     .logo{
         color: whitesmoke;
     }
@@ -17,7 +19,7 @@ footer{
                 color: whitesmoke;
             }
             a:hover{
-                color: yellow;
+                color: rebeccapurple;
             }
         }
     }
