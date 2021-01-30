@@ -1,5 +1,5 @@
 nav {
-  background: #1b1b86;
+  background: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,6 +8,15 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  /*
+    // Hamburger logo 
+    .hamburger div{
+        width: 30px;
+        height: 3px;
+        margin: 5px;
+        background: whitesmoke;
+    }
+    */
 }
 
 nav .logo {
@@ -32,24 +41,59 @@ nav .nav-links ul li a {
   color: whitesmoke;
 }
 
-nav .burger .line {
-  width: 30px;
-  height: 3px;
-  margin: 5px;
-  background: whitesmoke;
+nav .hamburger {
+  display: block;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 700px) {
   body {
     overflow-x: hidden;
   }
+  nav {
+    position: fixed;
+    width: 100%;
+  }
   .nav-links {
-    display: none;
+    position: absolute;
+    right: 0px;
+    top: 5vh;
+    height: 100vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    -webkit-transform: translateY(-150%);
+            transform: translateY(-150%);
+    -webkit-transition: 0.8s ease-in;
+    transition: 0.8s ease-in;
+  }
+  .nav-links ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger div {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: whitesmoke;
+  }
+  .nav-active {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
 
 footer {
-  background: #1b1b86;
+  background: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

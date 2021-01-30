@@ -1,5 +1,6 @@
 nav{
-    background: rgb(27, 27, 134);
+    //background: rgb(27, 27, 134);
+    background: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,21 +20,56 @@ nav{
         }
     }
 
-    // Burger logo 
-    .burger .line{
+    // Hamburger Desktop set to none
+    .hamburger{
+        display: block;
+    }
+    /*
+    // Hamburger logo 
+    .hamburger div{
         width: 30px;
         height: 3px;
         margin: 5px;
         background: whitesmoke;
     }
+    */
 }
 
 
-@media(max-width:760px){
+@media(max-width:700px){
     body{
         overflow-x: hidden;
     }
+    nav{
+        position: fixed;
+        width: 100%;
+    }
     .nav-links{
-        display: none;
+        position: absolute;
+        right: 0px;
+        top: 5vh;
+        height: 100vh;
+        align-items: center;
+        width: 100%;
+        transform: translateY(-150%);
+        transition: 0.8s ease-in;
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    // Hamburger logo 
+    .hamburger div{
+        width: 30px;
+        height: 3px;
+        margin: 5px;
+        background: whitesmoke;
+    }
+    .nav-active{
+        transform: translateY(0%);
     }
 }
