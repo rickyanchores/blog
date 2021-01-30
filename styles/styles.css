@@ -140,7 +140,18 @@ footer .copyrighter {
 }
 
 #blog {
-  height: 100vh;
+  font-size: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#blog h3 {
+  text-transform: uppercase;
 }
 
 * {
@@ -164,5 +175,25 @@ body {
 
 img {
   width: 100%;
+}
+
+button {
+  padding: 1em 3em;
+  border: none;
+}
+
+button:hover {
+  background: rebeccapurple;
+}
+
+button:hover a {
+  color: whitesmoke;
+}
+
+button a {
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */
