@@ -1,7 +1,7 @@
 @import './Nav';
 @import './Footer';
 @import './Blog';
-
+@import './Button';
 
 *{
     padding: 0;
@@ -24,19 +24,3 @@ img{
     width: 100%;
 }
 
-button{
-    padding: 1em 3em;
-    border: none;
-}
-button:hover{
-    background: rebeccapurple;
-    a{
-        color: whitesmoke;
-    }
-}
-button a{
-    text-transform: uppercase;
-    font-weight: bolder;
-    text-decoration: none;
-    color: black;
-}
