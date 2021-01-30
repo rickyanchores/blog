@@ -139,7 +139,7 @@ footer .copyrighter {
   color: whitesmoke;
 }
 
-#blog {
+.blog {
   font-size: 1.5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -150,7 +150,7 @@ footer .copyrighter {
           flex-direction: column;
 }
 
-#blog h3 {
+.blog h3 {
   text-transform: uppercase;
 }
 
