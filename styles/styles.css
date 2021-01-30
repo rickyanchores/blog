@@ -157,8 +157,8 @@ footer .copyrighter {
 }
 
 button {
+  border: 2px solid rebeccapurple;
   padding: 1em 3em;
-  border: none;
 }
 
 button:hover {
