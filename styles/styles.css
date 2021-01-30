@@ -140,6 +140,7 @@ footer .copyrighter {
 }
 
 .blog {
+  margin-bottom: 2em;
   font-size: 1.5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -151,6 +152,7 @@ footer .copyrighter {
 }
 
 .blog h3 {
+  font-size: 1.8em;
   text-transform: uppercase;
 }
 
