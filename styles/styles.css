@@ -39,6 +39,15 @@ nav .burger .line {
   background: whitesmoke;
 }
 
+@media (max-width: 760px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    display: none;
+  }
+}
+
 footer {
   background: #1b1b86;
   display: -webkit-box;

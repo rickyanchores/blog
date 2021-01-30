@@ -27,3 +27,13 @@ nav{
         background: whitesmoke;
     }
 }
+
+
+@media(max-width:760px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        display: none;
+    }
+}
