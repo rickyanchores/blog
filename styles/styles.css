@@ -21,6 +21,8 @@ nav {
 
 nav .logo {
   color: whitesmoke;
+  border: 0.3em solid white;
+  padding: 0.5em;
 }
 
 nav .nav-links ul {
@@ -37,8 +39,13 @@ nav .nav-links ul li {
 }
 
 nav .nav-links ul li a {
+  text-transform: uppercase;
   text-decoration: none;
   color: whitesmoke;
+}
+
+nav .nav-links ul li a:hover {
+  border-bottom: whitesmoke 2px solid;
 }
 
 nav .hamburger {
@@ -113,6 +120,8 @@ footer {
 
 footer .logo {
   color: whitesmoke;
+  border: 0.3em solid white;
+  padding: 0.5em;
 }
 
 footer .contact-links {
@@ -159,6 +168,7 @@ footer .copyrighter {
 button {
   border: 2px solid rebeccapurple;
   padding: 1em 3em;
+  cursor: pointer;
 }
 
 button:hover {
