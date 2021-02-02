@@ -1,0 +1,22 @@
+#services{
+    background: #ccc;
+    padding: 2em;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .card{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        margin: 1em;
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-size: auto;
+        }
+    }
+}
